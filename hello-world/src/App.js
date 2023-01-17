@@ -6,11 +6,16 @@ import Hello from './components/Hello';
 function App() {
   return (
     <div className="App">
-      {/* <Greet/>
-      <Welcome/> */}
-      <Hello></Hello>
+      <Greet name="Bruce" heroName="Batman">
+      </Greet>
+      <Greet name="Clark" heroName="Superman">
+      </Greet>
+      <Greet name="Diana" heroName="Wonder Woman">
+      </Greet>
+
     </div>
   );
 }
 
 export default App;
+
