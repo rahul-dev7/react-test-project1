@@ -7,10 +7,11 @@ import Message from './components/Message';
 import Counter from './components/Counter';
 import FunctionClick  from './components/FuctionalClick';
 import EventBind from './components/EventBind';
+import ParentComponent from './components/ParentComponent';
 function App() {
   return (
     <div className="App">
-      <EventBind/>
+      {/* <EventBind/> */}
       {/* <FunctionClick/> */}
       {/* <Greet name="Bruce" heroName="Batman">
       </Greet>
@@ -22,6 +23,7 @@ function App() {
       </Welcome>
       <Message></Message> */}
       {/* <Counter></Counter> */}
+      <ParentComponent></ParentComponent>
     </div>
   );
 }
