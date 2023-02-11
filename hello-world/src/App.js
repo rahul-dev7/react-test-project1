@@ -9,6 +9,7 @@ import FunctionClick  from './components/FuctionalClick';
 import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
+import NameList from './components/NameList';
 function App() {
   return (
     <div className="App">
@@ -25,7 +26,8 @@ function App() {
       <Message></Message> */}
       {/* <Counter></Counter> */}
       {/* <ParentComponent></ParentComponent> */}
-      <UserGreeting></UserGreeting>
+      {/* <UserGreeting></UserGreeting> */}
+      <NameList></NameList>
     </div>
   );
 }
