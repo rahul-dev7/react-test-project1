@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
 import './App.css';
-import ParentComp from './components/ParentComp';
-import PureComp from './PureComp';
+import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
 class App extends Component {
   render() {
     return (
       <div className="App">
-       <ParentComp></ParentComp>
+        {/* <FragmentDemo></FragmentDemo> */}
+        <Table></Table>
       </div>
     )
   }
