@@ -28,7 +28,6 @@ class EventBind extends Component {
           message: 'GoodBye!'
       })
     }
-    
   render() {
     return (
       <div>
