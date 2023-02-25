@@ -5,7 +5,7 @@ import withCounter from './withCounter';
 class HoverCounter extends Component {
 
     render() {
-        const { count, incrementCount } = this.state;
+        const { count, incrementCount } = this.props;
 
         return (
         <div>
@@ -15,5 +15,5 @@ class HoverCounter extends Component {
     }
 }
 
-export default withCounter(HoverCounter)
+export default withCounter(HoverCounter, 10)
 
