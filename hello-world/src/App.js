@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
 import './App.css';
 import ClickCounter from './components/ClickCounter';
+import ClickCounterTwo from './components/ClickCounterTwo';
 import ErrorBoundary from './components/ErrorBoundary';
 import FRParentInput from './components/FRParentInput';
 import Hero from './components/Hero';
 import HoverCounter from './components/HoverCounter';
+import HoverCounterTwo from './components/HoverCounterTwo';
 import ParentComp from './components/ParentComp';
 import PortalDemo from './components/PortalDemo';
 import RefsDemo from './components/RefsDemo';
@@ -26,8 +28,10 @@ class App extends Component {
         <ErrorBoundary>
           <Hero heroName="Joker"></Hero>
         </ErrorBoundary> */}
-        <ClickCounter name="rahul"></ClickCounter>
-        <HoverCounter></HoverCounter>
+        {/* <ClickCounter name="rahul"></ClickCounter> */}
+        {/* <HoverCounter></HoverCounter> */}
+        <ClickCounterTwo></ClickCounterTwo>
+        <HoverCounterTwo></HoverCounterTwo>
       </div>
     )
   }
