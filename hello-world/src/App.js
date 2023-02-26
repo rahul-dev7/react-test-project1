@@ -1,6 +1,7 @@
 // install axois for http  package npm install axios
 import React, { Component } from 'react'
 import './App.css';
+import PostForm from './components/PostForm';
 import PostList from './components/PostList';
 
 class App extends Component {
@@ -8,7 +9,8 @@ class App extends Component {
     return (
       <div className="App">
         {/* this for get http request  */}
-        <PostList></PostList>
+        {/* <PostList></PostList> */}
+        <PostForm></PostForm>
       </div>
     )
   }
