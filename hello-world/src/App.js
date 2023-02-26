@@ -10,6 +10,7 @@ import HoverCounterTwo from './components/HoverCounterTwo';
 import ParentComp from './components/ParentComp';
 import PortalDemo from './components/PortalDemo';
 import RefsDemo from './components/RefsDemo';
+import User from './components/User';
 import PureComp from './PureComp';
 class App extends Component {
   render() {
@@ -32,6 +33,7 @@ class App extends Component {
         {/* <HoverCounter></HoverCounter> */}
         <ClickCounterTwo></ClickCounterTwo>
         <HoverCounterTwo></HoverCounterTwo>
+        <User render={(isLoggedIn) => isLoggedIn ? 'Rahul' : 'Guest'}></User>
       </div>
     )
   }
